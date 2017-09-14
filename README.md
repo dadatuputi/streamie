@@ -13,6 +13,12 @@ I decided to release the source code for this app to help other developers see h
 
 Feel free to go through the source code and learn from the good and the bad. If you use parts of this code, please just give me attribution. 
 
+## APK Releases
+These are posted for historical purposes and will not run properly if sideloaded because the API keys are no longer valid. Even if the keys were valid, the APIs Streamie uses have been deprecated so is unlikely to work properly. 
+
+* [Streamie Pro 3.0](release/Streamie-pro-release.apk)
+* [Streamie Free 3.0](release/Streamie-free-release.apk)
+
 ## Screenshots
 |||
 |---|---|
