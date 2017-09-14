@@ -1,0 +1,65 @@
+<resources>
+
+    <string name="title_activity_settings">Streamie Settings</string>
+
+    <!-- PROVIDER SETTINGS -->
+    <string name="title_provider_settings">Select Content</string>
+    <string name="provider_settings_text">Select the content below that you would like to view in Streamie&#8230;</string>
+    <string name="provider_settings_warning">Please select at least one provider</string>
+    <string name="provider_settings_warning_force_exit">Press back again to exit</string>
+
+    <!-- GENERAL SETTINGS -->
+    <string name="pref_general_header">General Settings</string>
+    <string name="pref_adblock_title">Enable AdBlock (beta)</string>
+    <string name="pref_adblock_summary">Simple AdBlocking. Available for Honeycomb or newer. Deprecated. May be removed in future versions of Streamie.</string>
+    <string name="pref_mature_title">Mature Content</string>
+    <string name="pref_mature_on_summary">Mature Content Enabled</string>
+    <string name="pref_mature_off_summary">Mature Content Disabled</string>
+    <string name="pref_mature_summary">Enable or disable mature content</string>
+    <string name="pref_theme_title">Theme (Requires Restart)</string>
+    <string name="pref_orientation">Video Orientation</string>
+    <string name="pref_restart_dialog">The setting you changed requires a restart before it can be fully applied.</string>
+    <string name="pref_restart">Restart</string>
+    <string name="pref_restart_later">Later</string>
+    <string name="pref_alternative_flash_title">Enable Alt. Browser</string>
+    <string name="pref_alternative_flash_summary">Use any browser to watch video. Chat not supported.</string>
+    <string name="pref_alternative_hls_title">Enable HLS</string>
+    <string name="pref_alternative_hls_summary">Alpha. Try Twitch HLS Stream</string>
+    <string name="pref_log_out_summary">Select to disconnect</string>
+
+    <!-- CHAT SETTINGS -->
+    <string name="pref_chat_header">Chat Settings</string>
+    <string name="pref_chat_opacity_title">Chat Opacity</string>
+    <string name="pref_chat_opacity_summary">Set the desired opacity. The lower this value, the more transparent the chat window becomes.</string>
+    <string name="pref_chat_title">Chat</string>
+    <string name="pref_chat_on_summary">Chat Enabled</string>
+    <string name="pref_chat_off_summary">Chat Disabled</string>
+    <string name="pref_chat_width_title">Chat Width</string>
+    <string name="pref_chat_width_summary">Set the desired chat panel width.</string>
+    <string name="pref_chat_autoscroll_title">Chat Autoscroll</string>
+    <string name="pref_chat_autoscroll_summary">Automatically scroll chat window</string>
+
+    <!-- JUSTIN.TV SETTINGS -->
+    <string name="pref_justin_tv_header">Justin.tv Settings</string>
+    <string name="pref_justin_tv_title">Justin.tv Content</string>
+    <string name="pref_justin_tv_log_in_title">Connect to Justin.tv</string>
+    <string name="pref_justin_tv_log_in_summary">Connect to Justin.tv</string>
+    <string name="pref_justin_tv_log_out_title">Disconnect from Justin.tv</string>
+    <string name="pref_justin_tv_log_out_confirmation">Are you sure you would like to disconnect from Justin.tv?</string>
+    <string name="pref_justin_tv_on_summary">Justin.tv Content Enabled</string>
+    <string name="pref_justin_tv_off_summary">Justin.tv Content Disabled</string>
+    <string name="pref_justin_tv_language_summary">Filter Justin.tv results by language</string>
+    <string name="pref_justin_tv_stream_image">Display Image</string>
+    <string name="pref_justin_tv_language">Language</string>
+    <string name="pref_justin_tv_description">Choose from a huge selection of live channels broadcasting a variety of content from all over the world in many languages.</string>
+
+    <!-- TWITCH SETTINGS -->
+    <string name="pref_twitch_header">Twitch Settings</string>
+    <string name="pref_twitch_title">Twitch Content</string>
+    <string name="pref_twitch_log_in_title">Connect to Twitch</string>
+    <string name="pref_twitch_log_in_summary">Connect to Twitch</string>
+    <string name="pref_twitch_log_out_title">Disconnect from Twitch</string>
+    <string name="pref_twitch_log_out_confirmation">Are you sure you would like to disconnect from Twitch?</string>
+    <string name="pref_twitch_description">Twitch is the leading video platform and community for gamers. Broadcast, watch, and chat from anywhere in the world.</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/menu_search"
+          android:title="@string/search"
+          android:icon="@drawable/ic_menu_search"
+          android:showAsAction="always|withText|collapseActionView" 
+          android:actionViewClass="com.actionbarsherlock.widget.SearchView" />
+	<!--  android:showAsAction="collapseActionView|ifRoom"  -->
+</menu>

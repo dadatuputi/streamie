@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <SwitchPreference
+        android:icon="@drawable/twitch_logo"
+        android:key="pref_twitch_enabled"
+        android:title="@string/pref_twitch_title" />
+
+    <co.bantamstudio.streamie.twitch.TwitchAuthPreference
+        android:dependency="pref_twitch_enabled"
+        android:key="pref_twitch_log_in"
+        android:title="@string/pref_twitch_log_in_title" />
+
+</PreferenceScreen>

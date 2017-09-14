@@ -1,0 +1,97 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/CardListItem"
+    android:layout_width="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="horizontal"
+    android:id="@+id/linearLayout1"
+    android:layout_height="97dp"
+    android:padding="11dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@+id/listItemIcon"
+        android:layout_toRightOf="@+id/listItemIcon"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/listItemText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dip"
+            android:layout_marginTop="3dp"
+            android:maxLines="1"
+            style="@style/CardTitle"
+            android:text="@string/stream"
+            android:textSize="17sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/listItemSubtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha=".5"
+            android:maxLines="1"
+            style="@style/CardText"
+            android:text="@string/channel"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="12sp"
+            android:layout_alignParentEnd="false"
+            android:layout_below="@+id/listItemText"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/linearLayout"
+        android:background="@color/LightGrey"
+        android:gravity="fill_horizontal"
+        android:layout_alignBottom="@+id/listItemIcon"
+        android:layout_alignParentLeft="true"
+        android:animationCache="true">
+
+        <TextView
+            android:id="@+id/listItemViewers"
+            style="@style/ViewersText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/Gray"
+            android:layout_marginLeft="85dp" />
+
+        <TextView
+            android:id="@+id/listItemGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/Gray"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="gravity"
+            android:gravity="right"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/listItemIcon"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_vertical|left"
+        android:contentDescription="@string/channel_image_content_description"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

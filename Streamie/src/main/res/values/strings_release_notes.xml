@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="release_notes_title">What\'s new in %1$s?</string>
+    <string name="release_notes">
+		<b><u>Big Update!</u></b>\n
+        <b>New Features</b>\n
+        Updated interface\n
+        Can now authenticate with Twitch\n
+        Can now install to sd card\n\n
+        <b>Bug Fixes</b>\n
+        A long-running bug that was making Streamie crash on startup has been fixed.\n\n
+        <b>Other</b>\n
+        Updated the flash download links to the most recent versions.\n\n
+    </string>
+    <string name="release_twitter">Follow us for updates or alert us to bugs. We only tweet when it\'s important, we promise!</string>
+    <string name="twitter_follow">Follow @StreamieTV</string>
+    <string name="twitter_url">https://twitter.com/StreamieTV</string>
+    
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="justin_tv">Justin.tv</string>
+    <string name="justin_tv_auth_successful">Successfully authenticated with Justin.tv!</string>
+    <string name="justin_tv_auth_unsuccessful">There was a problem authenticating with Justin.tv</string>
+    <string name="justin_tv_profile_loading_top">Justin.tv Profile</string>
+    <string name="justin_tv_search_channels_hint">Search Justin.tv Channels&#8230;</string>
+    <string name="justin_tv_search_channels">Search Justin.tv Channels</string>
+    <string name="justin_tv_search_default_empty_text">Enter a search term above to begin the search\n\nJustin.tv will return random results when search turns up nothing.</string>
+    <string name="justin_tv_favorites">Favorites with Justin.tv are not yet implemented</string>
+</resources>

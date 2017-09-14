@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:icon="@drawable/jtv_logo"
+        android:key="pref_justin_tv_enabled"
+        android:title="@string/pref_justin_tv_title" />
+
+    <!--<co.bantamstudio.streamie.justintv.JustinTVAuthPreference-->
+        <!--android:dependency="pref_justin_tv_enabled"-->
+        <!--android:key="pref_justin_tv_log_in"-->
+        <!--android:title="@string/pref_justin_tv_log_in_title" />-->
+
+    <ListPreference
+        android:defaultValue="all"
+        android:dependency="pref_justin_tv_enabled"
+        android:entries="@array/language_names"
+        android:entryValues="@array/language_ids"
+        android:key="pref_justin_tv_language"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="@string/pref_justin_tv_language_summary"
+        android:title="@string/pref_justin_tv_language" />
+    <ListPreference
+        android:defaultValue="screenshot"
+        android:dependency="pref_justin_tv_enabled"
+        android:entries="@array/stream_image_names"
+        android:entryValues="@array/stream_image_ids"
+        android:key="pref_justin_tv_stream_image"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_justin_tv_stream_image" />
+
+</PreferenceScreen>

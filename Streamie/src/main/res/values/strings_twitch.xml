@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="twitch">Twitch</string>
+    <string name="twitch_auth_successful">Successfully authenticated with Twitch!</string>
+    <string name="twitch_auth_unsuccessful">There was a problem authenticating with Twitch</string>
+    <string name="twitch_search_channels_hint">Search Twitch Channels&#8230;</string>
+    <string name="twitch_search_games_hint">Search Twitch Games&#8230;</string>
+    <string name="twitch_search_channels">Search Twitch Channels</string>
+    <string name="twitch_search_games">Search Twitch Games</string>
+    <string name="twitch_profile_loading_top">Twitch Profile</string>
+    <string name="twitch_search_channel_title">Twitch Channel Search</string>
+    <string name="twitch_search_category_title">Game Search</string>
+    <string name="twitch_follows_title">Twitch Followed Channels</string>
+    <string name="twitch_categories_title">Twitch Games</string>
+</resources>

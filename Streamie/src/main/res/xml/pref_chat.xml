@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:seekbar="http://schemas.android.com/apk/res-auto"    >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_chat_enabled"
+        android:summaryOff="@string/disabled"
+        android:summaryOn="@string/enabled"
+        android:title="@string/pref_chat_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:dependency="pref_chat_enabled"
+        android:key="prefs_chat_autoscroll"
+        android:summary="@string/pref_chat_autoscroll_summary"
+        android:title="@string/pref_chat_autoscroll_title" />
+
+    <co.bantamstudio.streamie.SliderPreference
+        android:defaultValue="0.75"
+        android:dependency="pref_chat_enabled"
+        android:dialogMessage="@string/pref_chat_opacity_summary"
+        android:key="pref_chat_opacity"
+        android:title="@string/pref_chat_opacity_title" />
+    <co.bantamstudio.streamie.SliderPreference
+        android:defaultValue="0.75"
+        android:dependency="pref_chat_enabled"
+        android:dialogMessage="@string/pref_chat_width_summary"
+        android:key="pref_chat_width"
+        android:title="@string/pref_chat_width_title"
+        seekbar:maxValue="100"
+        seekbar:minValue="25" />
+    
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+	<color name="black_semi_transparent">#FD000000</color>
+	<color name="whitesmoke_semi_transparent">#AAF5F5F5</color>
+<!--     <color name="theme_light_green">#FFE9F1DF</color> -->
+<!--     <color name="theme_orange">#FFF5A503</color> -->
+<!--     <color name="theme_red">#FFF2385A</color> -->
+<!--     <color name="theme_light_teal">#FF4AD9D9</color> -->
+<!--     <color name="theme_teal">#FF36B1BF</color> -->
+    <color name="ics_light_blue">#FF33B5E5</color>
+    <color name="ics_blue">#FF0099CC</color>
+    <color name="ics_light_purple">#FFAA66CC</color>
+    <color name="ics_purple">#FF9933CC</color>
+    <color name="ics_light_green">#FF99CC00</color>
+    <color name="ics_green">#FF669900</color>
+    <color name="ics_light_orange">#FFFFBB33</color>
+    <color name="ics_orange">#FFFF8800</color>
+    <color name="ics_light_red">#FFFF4444</color>
+    <color name="ics_red">#FFCC0000</color>
+</resources>

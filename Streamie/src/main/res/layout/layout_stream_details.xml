@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uk.co.senab.actionbarpulltorefresh.extras.actionbarsherlock.PullToRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ptr_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ad_layout"
+        android:layout_alignParentTop="true"
+        android:background="@color/White">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:showDividers="middle" >
+
+            <FrameLayout
+                android:id="@+id/streamDetailsPlayImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="top|center_horizontal"
+                android:adjustViewBounds="true"
+                android:gravity="top|center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/streamDetailsImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:adjustViewBounds="true"
+                    android:background="@color/Black"
+                    android:contentDescription="@string/screenshot"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/twitter" />
+
+                <ProgressBar
+                    android:id="@+id/imageProgressBar"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="75dp" />
+
+                <ImageView
+                    android:id="@+id/play_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/play_button_content_description"
+                    android:src="@drawable/ic_menu_play_clip" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="7dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/streamDetailStreamName"
+                    style="@style/Stream_Detail_Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/streamDetailsSubtitle"
+                    style="@style/Stream_Detail_Subtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/streamDetailStreamViewers"
+                    style="@style/Stream_Detail_Viewers"
+                    android:alpha=".6"
+                    android:drawablePadding="3dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:id="@+id/streamDetailChannel"
+                    style="@style/Stream_Detail_Broadcaster"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:drawableLeft="@drawable/social">
+
+                    <ImageView
+                        android:id="@+id/streamDetailProfileImage"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+
+                    <TextView
+                        android:id="@+id/streamDetailBroadcaster"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:textSize="20sp"
+                        android:textIsSelectable="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/streamDetailButtons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        style="@style/Stream_Detail_Title"
+                        android:text="@string/playback_methods"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/streamDetailButtonViewFlash"
+                        style="@style/CardButton"
+                        android:drawableLeft="@drawable/ic_menu_play_clip"
+                        android:text="@string/view_stream_flash"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent" />
+
+                    <Button
+                        android:id="@+id/streamDetailButtonViewHLS"
+                        style="@style/CardButton"
+                        android:drawableLeft="@drawable/ic_menu_play_clip"
+                        android:text="@string/view_stream_hls"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/streamDetailDescriptions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:layout_margin="7dp"
+                        android:background="@color/Gray" />
+
+                    <TextView
+                        android:id="@+id/streamDetailShortDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dp"
+                        android:linksClickable="true" />
+
+                    <TextView
+                        android:id="@+id/streamDetailsDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dp"
+                        android:linksClickable="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</uk.co.senab.actionbarpulltorefresh.extras.actionbarsherlock.PullToRefreshLayout>

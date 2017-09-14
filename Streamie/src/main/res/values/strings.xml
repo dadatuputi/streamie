@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Streamie Pro</string>
+    <string name="menu_settings">Settings</string>
+    <string name="viewers">viewers</string>
+    <string name="title_activity_stream">Stream</string>
+    <string name="title_activity_stream_details">Stream Details</string>
+    <string name="leave_stream">Would you like to leave the stream?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="continue_string">Continue</string>
+    <string name="chat">Chat</string>
+    <string name="no_chat">There was a problem loading chat. Please try again later.</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_activity_front_page">FrontPageActivity</string>
+    <string name="seconds_ago">seconds ago</string>
+    <string name="last_updated">last updated</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="add_channel">Add to Favorites</string>
+    <string name="added_channel">Favorite</string>
+    <string name="start_stream">Start Stream</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="stream_colon">Stream:</string>
+    <string name="channel_colon">Channel:</string>
+    <string name="stream">Stream</string>
+    <string name="game">Game</string>
+    <string name="games">Games</string>
+    <string name="favorite_star_content_description">Star to indicate the channel is favorited</string>
+    <string name="stream_right_arrow_content_description">Right arrow for streams</string>
+    <string name="channel_image_content_description">Image for current channel</string>
+    <string name="channel">Channel</string>
+    <string name="status_colon">Status:</string>
+    <string name="channel_details">Channel Details</string>
+    <string name="category_image_content_description">Category Image</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="play_button_content_description">Play Button</string>
+    <string name="loading_lowercase">loading&#8230;</string>
+    <string name="title_activity_search">Results</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="no_results">No results</string>
+    <string name="live_channels">Live Channels</string>
+    <string name="no_results_favorites">No results. Try adding some favorites!</string>
+    <string name="no_results_streams">No results. Try refreshing or come back later.</string>
+    <string name="search_initial">If your query returns no results, this will return the most popular streams instead.</string>
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="lookup_condensed">Lookup Stream</string>
+    <string name="lookup">Lookup Stream by Username</string>
+    <string name="lookup_text">Enter a Justin.tv or Twitch.tv username:</string>
+    <string name="lookup_error">Please enter a valid stream name.</string>
+    <string name="lookup_error_could_not_load">Could not load channel</string>
+    <string name="profile_error_could_not_load">Could not load profile</string>
+    <string name="title_activity_adobe_flash">Flash Not Installed</string>
+    <string name="flash_not_installed">Adobe Flash is not installed on your phone</string>
+    <string name="flash_install_instructions_ics">Installation instructions for Ice Cream Sandwich or earlier</string>
+    <string name="flash_ics_versions">2.2 &#8211; 4.0.x</string>
+    <string name="flash_ics_play_download">Download from Google Play</string>
+    <string name="flash_alternative_install_method">If you don\'t have access to Google Play, try the alternative installation method</string>
+    <string name="flash_alternative_method">Alternative Method</string>
+    <string name="flash_jb_versions">4.1.x &#8211; 4.2+</string>
+    <string name="flash_install_instructions">Installation instructions for Adobe Flash on Android. Most may skip to step 3.</string>
+    <string name="flash_jb_watch_video">Watch Youtube Video</string>
+    <string name="flash_download_apk">Direct download APK (%1$s)</string>
+    <string name="flash_jb_install_apk">Install downloaded APK</string>
+    <string name="_1_dot">1.</string>
+    <string name="_2_dot">2.</string>
+    <string name="_3_dot">3.</string>
+    <string name="flash_ics_archive">Download Flash APK</string>
+    <string name="_4_dot">4.</string>
+    <string name="menu_favorite">Add to Favorites</string>
+    <string name="ad_custom_text_big">Consider Streamie Pro!</string>
+    <string name="ad_custom_text_small">No banner ads. Check it out on Google Play</string>
+    <string name="content_description_launcher">launcher icon</string>
+    <string name="content">Content</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_dont_show">Don\'t show this message again</string>
+    <string name="video_disclaimer"><b><i>Updated: </i></b>There are a few limitations using the Justin/Twitch.tv flash players:\n\n
+<b>Chat: </b>Open chat by pressing your physical menu button and selecting "Show Chat" <b>or</b>        by long-pressing the <i><b>center</b></i> of the playing video.\n\n
+        You can <b>close chat by pressing the back button on your device or long-pressing on the chat window.</b>\n\n
+<b>Volume Controls: </b>The volume is controlled by your phone volume.
+</string>
+    <string name="categories">Categories</string>
+    <string name="channel_search">Channel Search</string>
+    <string name="search_default_empty_text">Enter a search term above to begin the search</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="followed_channels">Followed Channels</string>
+    <string name="favorites_empty_offline_enabled">You don\'t have any favorites set.</string>
+    <string name="favorites_empty">None of your favorites are online.</string>
+    <string name="gesture_area">Gesture Area\n\nLong press this area to pull up chat. You may also pull up chat with the menu button. Long-press to close chat.</string>
+    <string name="gesture_area_confirm">Tap here to hide this notice.</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="context_add_to_favorites">Add to Favorites</string>
+    <string name="context_added_to_favorites">%1$s added to Favorites</string>
+    <string name="context_remove_from_favorites">Remove from Favorites</string>
+    <string name="context_removed_from_favorites">%1$s removed from Favorites</string>
+    <string name="stream_results_empty">The stream results are empty</string>
+    <string name="profile_loading_bottom">Loading&#8230;</string>
+
+    <string name="watch_stream">Watch Stream</string><string name="playback_methods">Playback Methods</string><string name="view_stream_flash">View Stream (Flash)</string><string name="view_stream_flash_browser">View Stream (Flash Browser - Beta)</string><string name="view_stream_hls">View Stream (HLS - Beta)</string>
+    <string name="featured_streams_title">Featured Streams</string>
+    <string name="all_streams">All Streams</string>
+</resources>

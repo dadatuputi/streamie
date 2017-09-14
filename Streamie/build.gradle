@@ -1,0 +1,88 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.6.+'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.0.0'
+
+    final Console console = System.console();
+    if (console != null) {
+
+        // Building from console
+        signingConfigs {
+
+
+            release {
+                storeFile file("KEYSTORE.keystore")
+                storePassword console.readLine("\7\nEnter keystore password: ")
+                keyAlias 'KEYALIAS'
+                keyPassword console.readLine("Enter key password: ")
+            }
+        }
+
+    } else {
+
+        // Building from IDE's "Run" button
+        signingConfigs {
+            release {
+
+            }
+        }
+
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            runProguard true
+            proguardFile 'proguard.cfg'
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+
+    productFlavors {
+        free {
+            packageName "co.bantamstudio.streamiefree"
+        }
+        pro {
+            packageName "co.bantamstudio.streamie"
+        }
+    }
+}
+
+dependencies {
+    compile 'org.projectlombok:lombok:1.12.2'
+    compile 'com.android.support:support-v4:18.0.+'
+    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
+    compile 'com.github.chrisbanes.actionbarpulltorefresh:extra-abs:+'
+    //compile files('libs/jerklib.jar')
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.8.6'
+    compile ('com.octo.android.robospice:robospice-spring-android:1.4.9') {
+        exclude module: 'spring-android-rest-template'
+    }
+    compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
+    compile ('org.springframework.android:spring-android-auth:1.0.1.RELEASE') {
+        exclude module: 'spring-core'
+    }
+    compile ('org.springframework.social:spring-social-core:1.0.3.RELEASE') {
+        exclude module: 'spring-web'
+        exclude module: 'commons-logging'
+        exclude module: 'spring-core'
+    }
+
+    //compile files('lombok-api.jar')
+
+    freeCompile files('libs/amazon-ads-5.1.153.jar')
+    freeCompile files('libs/GoogleAdMobAdsSdk-6.4.1.jar')
+}

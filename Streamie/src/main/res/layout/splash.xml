@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/splashImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal" />
+
+    <TextView
+        android:id="@+id/splashAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/splashVersionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/splashBantamStudioLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
+
+<!-- 	// private class SpashScreenTask extends AsyncTask<RestClient, Integer, -->
+<!-- 	// FrontPageListFragment>{ -->
+<!-- 	// -->
+<!-- 	// @Override -->
+<!-- 	// protected FrontPageListFragment doInBackground(RestClient... params) { -->
+<!-- 	// FrontPageListFragment fpv = null; -->
+<!-- 	// try { -->
+<!-- 	// fpv = new FrontPageListFragment(getApplicationContext(), -->
+<!-- 	// getApplication(), params[0], params[1], 3, 5); -->
+<!-- 	// } catch (Exception e1) { -->
+<!-- 	// // TODO Auto-generated catch block -->
+<!-- 	// e1.printStackTrace(); -->
+<!-- 	// } -->
+<!-- 	// try { -->
+<!-- 	// Thread.sleep(JTVApplication.SPLASH_TIME); -->
+<!-- 	// } catch (InterruptedException e) { -->
+<!-- 	// e.printStackTrace(); -->
+<!-- 	// } -->
+<!-- 	// return fpv; -->
+<!-- 	// } -->
+<!-- 	// -->
+<!-- 	// protected void onPostExecute(FrontPageListFragment result) { -->
+<!-- 	// MainActivity.this.fplf = result; -->
+<!-- 	// ll.setVisibility(LinearLayout.GONE); -->
+<!-- 	// va.addView(fplf); -->
+<!-- 	// va.showNext(); -->
+<!-- 	// -->
+<!-- 	// // fplf.setOnItemClickListener(new OnItemClickListener() { -->
+<!-- 	// // -->
+<!-- 	// // @Override -->
+<!-- 	// // public void onItemClick(AdapterView<?> parent, View view, int -->
+<!-- 	// position, -->
+<!-- 	// // long arg) { -->
+<!-- 	// // Object clicked = fplf.getAdapter().getItem(position); -->
+<!-- 	// // if (clicked instanceof JTVCategory){ -->
+<!-- 	// // // START CATEGORY ACTIVITY -->
+<!-- 	// // JTVCategory category = (JTVCategory)clicked; -->
+<!-- 	// // Intent intent = new Intent(getApplicationContext(), -->
+<!-- 	// CategoryListActivity.class); -->
+<!-- 	// // intent.putExtra(JTVApplication.JSON_STRING, category.getJson()); -->
+<!-- 	// // intent.putExtra(JTVApplication.CATEGORY_KEY, category.getKey()); -->
+<!-- 	// // startActivity(intent); -->
+<!-- 	// // }else if (clicked instanceof JTVStream){ -->
+<!-- 	// // // START STREAM ACTIVITY -->
+<!-- 	// // JTVStream stream = (JTVStream)clicked; -->
+<!-- 	// // Intent intent = new Intent(getApplicationContext(), -->
+<!-- 	// StreamDetailsActivity.class); -->
+<!-- 	// // intent.putExtra(JTVApplication.JSON_STRING, stream.getJson()); -->
+<!-- 	// // startActivity(intent); -->
+<!-- 	// // } -->
+<!-- 	// // -->
+<!-- 	// // } -->
+<!-- 	// // }); -->
+<!-- 	// } -->
+<!-- 	// } -->
+
+<!-- 	// SETS UP VERSION NUMBER AND LINK ON THE SPLASH/ABOUT PAGE -->
+<!-- 	// private void initializeSplash(View view) { -->
+<!-- 	// TextView link = (TextView)view.findViewById(R.id.splashBantamStudioLink); -->
+<!-- 	// link.setText(Html.fromHtml(JTVApplication.APP_LINK)); -->
+<!-- 	// //link.setMovementMethod(LinkMovementMethod.getInstance()); -->
+<!-- 	// TextView co.bantamstudio.streamie.api.jtv = (TextView)view.findViewById(R.id.splashVersionNumber); -->
+<!-- 	// try { -->
+<!-- 	// co.bantamstudio.streamie.api.jtv.setText(getPackageManager().getPackageInfo(getPackageName(), -->
+<!-- 	// 0).versionName); -->
+<!-- 	// } catch (NameNotFoundException e) { -->
+<!-- 	// co.bantamstudio.streamie.api.jtv.setVisibility(TextView.GONE); -->
+<!-- 	// } -->
+<!-- 	// } -->

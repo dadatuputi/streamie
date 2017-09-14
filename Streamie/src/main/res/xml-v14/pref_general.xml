@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="pref_mature"
+        android:summaryOff="@string/disabled"
+        android:summaryOn="@string/enabled"
+        android:title="@string/pref_mature_title" />
+
+    <ListPreference
+        android:defaultValue="lightDark"
+        android:entries="@array/theme_names"
+        android:entryValues="@array/theme_ids"
+        android:key="pref_theme"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_theme_title" />
+    <ListPreference
+        android:defaultValue="landscape"
+        android:entries="@array/orientation_names"
+        android:entryValues="@array/orientation_ids"
+        android:key="pref_orientation"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_orientation" />
+
+    <!--<SwitchPreference-->
+        <!--android:defaultValue="false"-->
+        <!--android:key="pref_alternative_flash"-->
+        <!--android:summary="@string/pref_alternative_flash_summary"-->
+        <!--android:title="@string/pref_alternative_flash_title" />-->
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="pref_alternative_hls"
+        android:summary="@string/pref_alternative_hls_summary"
+        android:title="@string/pref_alternative_hls_title" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="pref_adblock"
+        android:summary="@string/pref_adblock_summary"
+        android:title="@string/pref_adblock_title" />
+
+</PreferenceScreen>

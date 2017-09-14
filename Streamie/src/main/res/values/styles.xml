@@ -1,0 +1,130 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="BlackNoActionBar" parent="Theme.Sherlock.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Stream_Detail_Overlay_Text">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Stream_Detail_Title">
+        <item name="android:padding">7dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="Stream_Detail_Subtitle" parent="Stream_Detail_Title">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="Stream_Detail_Viewers" parent="Stream_Detail_Title">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Stream_Detail_Broadcaster" parent="Stream_Detail_Title">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Stream_Detail_Overlay_Linear">
+        <item name="android:background">@color/black_semi_transparent</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Stream_Button">
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="streamDetailListItem" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.FullScreen" parent="@style/Theme.Sherlock.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ViewersText">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:drawableLeft">@drawable/viewers</item>
+    </style>
+
+    <style name="medium_text_small" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="medium_text_medium" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="medium_text_large" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="blueButton" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/gradient_blue</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="small_blueButton" parent="@style/blueButton">
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <style name="med_blueButton" parent="@style/blueButton">
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="large_text_giant" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="large_text_large" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="large_text_medium" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="large_text_tiny" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

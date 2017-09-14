@@ -1,0 +1,15 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="co.bantamstudio.streamie.activity.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_general_header" />
+    <header
+        android:fragment="co.bantamstudio.streamie.activity.SettingsActivity$JustinTVPreferenceFragment"
+        android:title="@string/pref_justin_tv_header" />
+    <!-- <header -->
+    <!-- android:fragment="co.bantamstudio.streamie.SettingsActivity$ChatPreferenceFragment" -->
+    <!-- android:title="@string/pref_header_chat" /> -->
+
+</preference-headers>
