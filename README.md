@@ -75,7 +75,7 @@ These are posted for historical purposes and will not run properly if sideloaded
 *Bonus: [Google Play Ratings Drama](https://www.reddit.com/r/Android/comments/1665en/my_app_is_getting_1star_ratings_from_another_dev/)*
 
 ## Credits
-This is solely the work of its author, [Bradford Law](bradford.la). 
+This is solely the work of its author, [Bradford Law](https://bradford.la). 
 
 ## [License: MIT](LICENSE)
 
