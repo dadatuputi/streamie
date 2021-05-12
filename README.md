@@ -72,8 +72,6 @@ These are posted for historical purposes and will not run properly if sideloaded
 > 
 > According to the Justin.tv terms of service, anyone with access to these streams gets "a perpetual, personal, non-commercial, non-transferable, non-exclusive license to access and view [...] Lifecaster Content." http://www.justin.tv/p/terms_of_service
 
-*Bonus: [Google Play Ratings Drama](https://www.reddit.com/r/Android/comments/1665en/my_app_is_getting_1star_ratings_from_another_dev/)*
-
 ## Credits
 This is solely the work of its author, [Bradford Law](https://bradford.la). 
 
